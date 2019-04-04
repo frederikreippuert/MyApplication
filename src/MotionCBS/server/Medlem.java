@@ -13,7 +13,7 @@ public class Medlem {
     private Medlem nuvaerendeMedlem;
 
 
-
+//hdejdeijdos
 
     //Opretter constructor med de ovenstående attributer
     public Medlem(String fornavn, String efternavn, int alder, String koen, int medlemstype, String username, String password) {
