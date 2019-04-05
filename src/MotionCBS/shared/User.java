@@ -4,17 +4,15 @@ public class User {
     private int id;
     private String username;
     private String password;
-    private String urlImage;
     private char gender;
     private String description;
     private String email;
     private int type;
 
-    public User(int id, String username, String password, String urlImage, char gender, String description, String email, int type) {
+    public User(int id, String username, String password, char gender, String description, String email, int type) {
         this.id = id;
         this.username = username;
         this.password = password;
-        this.urlImage = urlImage;
         this.gender = gender;
         this.description = description;
         this.email = email;
@@ -43,14 +41,6 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getUrlImage() {
-        return urlImage;
-    }
-
-    public void setUrlImage(String urlImage) {
-        this.urlImage = urlImage;
     }
 
     public char getGender() {
